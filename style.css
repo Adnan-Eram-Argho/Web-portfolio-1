@@ -33,11 +33,17 @@ header{
     text-decoration: none;
     padding:10px 40px;
 } 
-section{
+.dream-big{
     display:flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     
     
+}
+.felx{
+    display:flex;
+}
+#hello{
+    padding-left:5%;
 }
