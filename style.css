@@ -33,3 +33,11 @@ header{
     text-decoration: none;
     padding:10px 40px;
 } 
+section{
+    display:flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
