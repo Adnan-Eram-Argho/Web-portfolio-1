@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size:50px;
@@ -10,3 +11,25 @@ h1{
 .halka{
     color:rgb(65, 65, 65);
 }
+header{
+    display:flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+    
+}
+.half-width{
+    width:50%;
+    padding-left:5%;
+}
+.half-width img{
+    width:100%;
+}
+.half-width a{
+    color:white;
+    font-weight:700;
+    background-image: linear-gradient(orange,tomato);
+    border-radius:5px;
+    text-decoration: none;
+    padding:10px 40px;
+} 
