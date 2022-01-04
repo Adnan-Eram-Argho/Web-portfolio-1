@@ -47,3 +47,31 @@ header{
 #hello{
     padding-left:5%;
 }
+.Experience-Area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width:40%;
+    margin: 0 5% 0 5%;
+    box-shadow:10px 10px 40px gray ;
+    padding-left:20px;
+   
+}
+.experience-item:first-child{
+    border-left:10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.experience-item:last-child{
+    border-left:10px solid;
+    border-image: linear-gradient(tomato,yellow);
+    border-image-slice: 1;
+}
+footer{
+    margin:70px 20px;
+    text-align: center;
+    color:gray;
+    
+}
